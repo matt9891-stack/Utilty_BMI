@@ -1,5 +1,12 @@
 # Utilty_BMI
-In this project, we have created two small utilities that calculate the BMI and assign a class based on it, using **Python** and **JavaScript**.
+In this project, we have created two small utilities that calculate the BMI (Body Mass index) and assign a class based on the value of the index.
+
+The two utilities have been developed using two of the most common programming languages, **Python** and **JavaScript** with the final aim to compare them.
+
+**Python** is a programming language widely known and used for its easy syntax, as it use english language developing its code, and its versatility and readability. It can support different programming styles such as procedural, object oriented and functional and, thanks to its many different free libraries it is widely used for data analysis, data science and machine learning.
+
+**JavaScript**
+
 
 We have executed the script by using an open-source application called Node.js that allow the execution of JavaScript code outside the web browser.
 
@@ -15,7 +22,7 @@ The aim is to compare the 2 utilities on the following points:
 
 **-Security implications.**
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 **-Development models.**
 
 **Python Utility**
