@@ -5,12 +5,9 @@ The two utilities have been developed using two of the most common programming l
 
 **Python** is a programming language widely known and used for its easy syntax, as it use english language developing its code, and its versatility and readability. It can support different programming styles such as procedural, object oriented and functional and, thanks to its many different free libraries it is widely used for data analysis, data science and machine learning.
 
-**JavaScript** is a programming language used to create dynamic interface on the website. It runs directly on the browser but it can be used into any IDE such as VsCode by using Node.js which is an open sourche cross-platform
+**JavaScript** is a programming language used to create dynamic interface on the website. It runs directly on the browser but it can be used into any IDE such as VsCode by using Node.js which is an open sourche cross-platform which allow to user to run JS scripts out of the browser.
 
-
-We have executed the script by using an open-source application called Node.js that allow the execution of JavaScript code outside the web browser.
-
-The aim is to compare the 2 utilities on the following points:
+In particular this report will aim to compare the two languages on the following points:
 
 **-Development models.**
 
