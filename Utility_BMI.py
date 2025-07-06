@@ -1,7 +1,7 @@
 class BMI_calculator:
-    def __init__(self,weight,height): #we call the constructor __init__
-        self.weight = weight # we define the first object as the weight in KG
-        self.height = height/100 # we define the second object as the height to be input in cm
+    def __init__(self,weight,height): 
+        self.weight = weight 
+        self.height = height/100 
 
     def calculate_BMI(self):
         self.BMI = self.weight/self.height**2
