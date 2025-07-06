@@ -28,9 +28,11 @@ class BMI_calculator: #definition of my class BMI_calculator
 
 try:
     height = int(input('What is your height in cm?'))
+except ValueError:
+    print(f'Your height must be in cm')   
+try:
     weight = int(input('What is your weight in KG?'))
 except ValueError:
-    print(f'Your height must be in cm')
     print(f'Your weight must be in KG')
 else:
     bmi = BMI_calculator(weight,height)
