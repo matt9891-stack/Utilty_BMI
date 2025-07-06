@@ -20,7 +20,7 @@ In particular, this report will aim to compare the two languages on the followin
 **-Security implications.**
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**-Development models.**
+# Development models.
 
 **Python Utility**
 
@@ -29,8 +29,11 @@ One of the main features of this is the **encapsulation**, which allows code to 
 Creating objects from the class allows the utility to improve its flexibility as it can handle multiple sets of data, but furthermore, this approach facilitates code reuse, allowing the utility to be imported and utilised in other projects simply by instantiating new objects with different input data. 
 Overall, adopting OOP enhances maintainability, promotes clean code organisation, and supports scalability as the project grows or requirements evolve.
 
-*Development*
+*Development Python*
 
+The first line allow the definition of the class where a class is a blueprint for a project which in our case is to create an Utility that suggest what class of BMI we are based on weight and height given
+
+**class BMI_calculator:**
 
 
 **HOW DOES THE UTILITY WORKS USING PYTHON**
