@@ -35,7 +35,46 @@ The first line allow the definition of the class where a class is a blueprint fo
 
 **class BMI_calculator:**
 
+After the definition of the class, we are going to define what object the container will need to work with by calling the function __init__, which works as a constructor, allowing us to define the two objects the code will take as input, the height in cm and weight in KG. The height is divided by 100 so that the       code will take as input the height in cm and will convert it to meters automatically.
 
+**def __init__(self,weight,height): 
+        self.weight = weight 
+        self.height = height/100** 
+        
+As the second step, we are going to define the action that the two objects are going to take, creating a new method calculate_BMI
+
+**def calculate_BMI(self):
+        self.BMI = self.weight/self.height**2
+        return self.BMI**
+        
+The second method will assign the class of BMI based on the value of BMI        
+
+**def calculate_class(self):
+        if self.BMI > 40:
+            print(f'Your BMI is {self.BMI} which indicates an Obesity class III')
+        elif self.BMI > 35:
+            print(f'Your BMI is {self.BMI} which indicates an Obesity class II')
+        elif self.BMI > 30:
+            print(f'Your BMI is {self.BMI} which indicates an Obesity class I')
+        elif self.BMI > 25:
+            print(f'Your BMI is {self.BMI} which indicates an Overweighted status')
+        elif self.BMI > 18:
+            print(f'Your BMI is {self.BMI} which indicates a Normoweighted status')
+        elif self.BMI < 18:
+            print(f'Your BMI is {self.BMI} which indicates a Underweighted status')**
+
+In this part of the code, we are using a TRY, EXCEPT block to handle some hypothetical errors. The first line takes the height from the user and converts it into an integer, while the second returns a message to the user in case the input is not convertible into an integer value.
+
+**try:
+    height = int(input('What is your height in cm?'))
+except ValueError:
+    print(f'Your height must be in cm')   
+try:
+    weight = int(input('What is your weight in KG?'))
+except ValueError:
+    print(f'Your weight must be in KG')**
+
+            
 **HOW DOES THE UTILITY WORKS USING PYTHON**
 
 https://github.com/user-attachments/assets/6dc94ecb-4f52-4f14-8805-93033dcd8408
