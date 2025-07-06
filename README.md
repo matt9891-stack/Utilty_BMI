@@ -7,20 +7,7 @@ The two utilities have been developed using two of the most common programming l
 
 **JavaScript** is a programming language used to create a dynamic interface on the website. It runs directly on the browser, but it can be used in any IDE such as VsCode by using Node.js, which is an open-source cross-platform which allows users to run JS scripts outside the browser.
 
-In particular, this report will aim to compare the two languages on the following points:
-
-**-Development models.**
-
-**-Syntax and readability.**
-
-**-Performance efficiency.**
-
-**-Scalability and maintainability.**
-
-**-Security implications.**
-
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Development models.
 
 **Python Utility**
 
@@ -29,11 +16,11 @@ One of the main features of this is the **encapsulation**, which allows code to 
 Creating objects from the class allows the utility to improve its flexibility as it can handle multiple sets of data, but furthermore, this approach facilitates code reuse, allowing the utility to be imported and utilised in other projects simply by instantiating new objects with different input data. 
 Overall, adopting OOP enhances maintainability, promotes clean code organisation, and supports scalability as the project grows or requirements evolve.
             
-**HOW DOES THE UTILITY WORKS USING PYTHON**
+**How Python Utility works**
 
 https://github.com/user-attachments/assets/6dc94ecb-4f52-4f14-8805-93033dcd8408
 
-**HOW THE OOP CAN FACILITATE THE SCALABILITY OF THE SAME UTILITY**
+**The OOP can allow the import of class rather than running the full script**
 
 https://github.com/user-attachments/assets/172a282e-930a-44fa-8958-edd3e59d6acd
 
@@ -44,11 +31,13 @@ This function takes inputs, performs calculations, and returns results without r
 User interaction is handled using Node.js’s readline module, which manages input and output directly within the terminal. By following a procedural approach, the code remains linear and easy to trace, making it well-suited for simple scripts. The logic executes step-by-step, with control over runtime behaviour tied to the current working directory and execution context, which the developer must consider during integration or deployment.
 While this procedural structure simplifies development and testing in a Node.js environment, it may reduce the utility’s extensibility and reusability compared to an object-oriented design. However, for small-scale tasks, this approach enables rapid implementation and straightforward execution.
 
-**HOW DOES THE UTILITY WORKS IN JAVASCRIPT USING NODE.js**
+**How the JS utility works through Node.js**
 
 https://github.com/user-attachments/assets/cb4104a4-f86a-46ca-a2e6-919b67b9b34c
 
-**Performances Python**
+**Performances**
+
+These have been seen to be similar between the two utilities, with a 10 to 20 % of CPU used during the execution, while a larger percentage of CPU has been used during the execution of the Python Utility by importing the class.
 
 *Performances full script*
 
